@@ -6,11 +6,13 @@ ol {
 
 /* Write your CSS below, don't change the rules above. */
 
-*[class="note"]{font-size: 20px;}
+.note {
+  font-size: 20px;
+}
 
 p{color:red}
 
-li[id="id-selector-demo"]{color:green}
+#id-selector-demo{color:green}
 
 li[value="4"]{color:blue}
 
